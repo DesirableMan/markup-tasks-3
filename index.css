@@ -184,12 +184,12 @@ label[for="inLanding"] {
 }
 
 label[for="inFlight"] {
-    background: url('../src/inFlight.png') no-repeat;
+    background: url('src/inFlight.png') no-repeat;
     background-size: 50px 50px;
 
 }
 label[for="inLanding"] {
-    background: url('../src/landing.png') no-repeat;
+    background: url('src/landing.png') no-repeat;
     background-size: 50px 50px;
     margin-left: -2px;
 }
@@ -200,12 +200,12 @@ label[for="inLanding"]:hover {
 }
 
 input[id="inFlight"]:checked ~ .tableFilters label[for="inFlight"] {
-    background: url('../src/inFlight_Active.png') no-repeat;
+    background: url('src/inFlight_Active.png') no-repeat;
     background-size: 50px 50px;
 }
 
 input[id="inLanding"]:checked ~ .tableFilters label[for="inLanding"] {
-    background: url('../src/landing_Active.png') no-repeat;
+    background: url('src/landing_Active.png') no-repeat;
     background-size: 50px 50px;
 }
 
